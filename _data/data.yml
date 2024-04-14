@@ -157,21 +157,21 @@ skill:
     - name: NodeJS/Typescript
       level: 4
     - name: Teamwork
-      level: 3
+      level: 4
     - name: Agile Development
-      level: 3
+      level: 5
     - name: Problem-solving
-      level: 3
+      level: 4
     - name: Go
-      level: 2
-    - name: Docker/Kubernetes
-      level: 2
-    - name: Java/Spring
       level: 3
+    - name: Docker/Kubernetes
+      level: 3
+    - name: React/React Native
+      level: 4
     - name: Azure Pipelines
       level: 3
     - name: Communication
-      level: 4
+      level: 5
 
 education:
   show: true
