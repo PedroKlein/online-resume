@@ -75,7 +75,7 @@ contact:
   tiktok: # username          | https://www.tiktok.com/@username
   quora: # username          | https://www.quora.com/profile/username
   zhihu: # username          | https://www.zhihu.com/people/username
-  goodreads: 166672702-pedro # username          | https://www.goodreads.com/user/show/username
+  goodreads: # username          | https://www.goodreads.com/user/show/username
   strava: # useid             | https://www.strava.com/athletes/userid
 
 profile:
@@ -102,8 +102,8 @@ experience:
 
     - company: Brindes NH
       link: https://www.brindesnh.com.br/
-      tags: Part-time, remote
-      date: 2020.06 - 2021.01
+      tags: part-time, remote
+      date: 2020.01 - 2021.01
       role: Fullstack Developer
       location: Novo Hamburgo
       description: |
@@ -118,35 +118,29 @@ experience:
       description: |
         Internship focused on web development using NodeJS, Angular 6, .NET and Windows SQL Server along with embedded programing using raspberry PI on a Linux environment. Development process following agile methodology and versioning with GitLab.
 
-# project:
-#   show: true
-#   order: 3
-#   title: Projects
-#   description: |
-#     The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+project:
+  show: true
+  order: 3
+  title: Projects
 
-#     In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+  items:
+    - name: Liverpool 360
+      tags: hackathon
+      date: 2023.06 - 2022.07
+      description: |
+        Project developed for SAP Innoweeks 2023 in parternship with Liverpool. Contributed as a backend developer with SAP CAP (typescript) and as a mobile developer with React Native.
 
-#     The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+    - name: Cantu Restore
+      tags: hackathon
+      date: 2022.07 - 2022.08
+      description: |
+        Project developed for SAP Innoweeks 2022 in parternship with Cantu Store. Contributed as a backend developer with nodejs and typescript.
 
-#   items:
-#     - name: Personal project
-#       link: "#"
-#       tags:
-#       date: 2015 - 2017
-#       description: |
-#         Personal project description...
-#         + First
-#         + Second
-
-#     - name: OSS project
-#       link:
-#       tags: committer
-#       date:
-#       description: |
-#         OSS project description...
-#         + First
-#         + Second
+    - name: S.O.M.SO.R.F
+      tags: school project
+      date: 2018.02 - 2018.11
+      description: |
+        Prototype of an augmented reality optical system coupled to a pair of glasses capable of indicating direction and intensity of sound as well as recognize speech and transcribe it for hearing impaired without the use of internet. Built using a Raspberry PI Zero W and developed with python.
 
 skill:
   show: true
@@ -197,6 +191,11 @@ certificate:
   title: Certificates
 
   items:
+    - name: "Docker and Kubernetes: The Complete Guide"
+      issuer: by Udemy
+      date: 2020
+      link: https://www.udemy.com/certificate/UC-2de4b778-2d4c-4b3d-86c2-0743ecda018f/
+
     - name: Cambridge English
       issuer: by Cambridge
       date: 2018
@@ -204,24 +203,30 @@ certificate:
       description: |
         First Certificate in English level B2 Upper-intermediate.
 
-# award:
-#   show: true
-#   order: 8
-#   title: Awards
+award:
+  show: true
+  order: 8
+  title: Awards
 
-#   items:
-#     - name: Example Awared One
-#       awarder: by Example
-#       date: 2022
-#       link: "#"
-#       description: |
-#         It's my Example Awared One by Example.
-#     - name: Third place in Electronic Engineering
-#       awarder: MOSTRATEC
-#       date: 2022
-#       link:
-#       description: |
-#         It's my Example Awared Two by Example.
+  items:
+    - name: Innoweeks 2023
+      awarder: by SAP Labs Latin America
+      date: 2023
+      description: |
+        Awareded the Best Innovation, Best Showcase, Solution's Scalability, Design Award and SAP Innoweeks 2023 Winner for the Liverpool 360 project.
+
+    - name: Innoweeks 2022
+      awarder: by SAP Labs Latin America
+      date: 2022
+      description: |
+        Awareded the Best Architecture and SAP Innoweeks 2022 Winner for the Cantu Restore project.
+
+    - name: Third place in Electronic Engineering
+      awarder: by MOSTRATEC
+      date: 2018
+      link:
+      description: |
+        Third place in Electronic Engineering for the project S.O.M.SO.R.F in MOSTRATEC 2018.
 
 language:
   show: true
@@ -238,12 +243,14 @@ interest:
   order: 12
   title: Interests
   description: |
-    I'm passionate about movies and music and love listening to audiobooks during daily commute.
+    I'm passionate about movies, music and love listening to audiobooks during daily commute.
   items:
-    - item: Reading
+    - item: Books
       link: https://www.goodreads.com/user/show/166672702-pedro
     - item: Movies
       link: https://letterboxd.com/pedroklein1/
+    - item: Musics
+      link: https://open.spotify.com/user/12142927934?si=ubZ--hrrQMKT_DkpjAj8IQ
 
 # evaluation:
 #   show: true
