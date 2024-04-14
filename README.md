@@ -65,17 +65,3 @@ If there is no content you want to keep in the section, you can remove it direct
 #### How to create a resume in other languages?
 
 For example, if you already have an English version resume and you want to create a Chinese version. Copy a `data.yml` file in the `_data` folder named `cn.yml` and edit the content, then copy an `index.html` file in the root directory named `cn.html` and change the `{%- assign data = site.data.data %}` in the `cn.html` file to `{%- assign data = site.data.cn %}`. After successful building, you can preview the Chinese version of your resume by visiting `https://YOUR_GITHUB_USERNAME.github.io/online-resume/cn`.
-
-#### How to deploy on other platforms, like cloudflare, vercel?
-
-You can read and follow [Cloudflare Pages][Cloudflare Pages], [Vercel][Vercel] documents.
-
-## Others
-
-- Hugo Version: [hugo-theme-online-resume][Other Version]
-
-
-[Demo]: https://tarrex.github.io/online-resume
-[Cloudflare Pages]: https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site/
-[Vercel]: https://vercel.com/guides/deploying-jekyll-with-vercel
-[Other Version]: https://github.com/tarrex/hugo-theme-online-resume
