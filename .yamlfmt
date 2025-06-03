@@ -1,0 +1,4 @@
+formatter:
+  indent: 2
+  trim_trailing_whitespace: true
+  retain_line_breaks: true

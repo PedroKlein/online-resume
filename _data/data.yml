@@ -93,12 +93,21 @@ experience:
   items:
     - company: SAP
       link: https://www.sap.com/
+      tags: Platform Developer
+      date: 2024.07 - today
+      role: Software Engineer
+      location: São Leopoldo
+      description: |
+        Infrastructure and platform innovation team at SAP Concur. With the initial main goal of migrating Concur infrastructure to BTP, I've worked with several technologies to achieve infrastructure automation using IaD to enable teams to onboard their teams and applications to our development platform. Developed several Crossplane compositions, GitOps flows, kubernetes operators and Go applications to automate the creation of many resources within SAP ecosystem, such as BTP sub-accounts, IAS configurations, Kyma/Gardener clusters, Vault configurations, etc. I've also worked on the CSK/CMK custom implementation for Concur, where I was responsible for developing onboarding tools (apis and operators) for services to be able to use the CSK/CMK encryption and key management system.
+
+    - company: SAP
+      link: https://www.sap.com/
       tags: Internship
-      date: 2022.07 - Today
+      date: 2022.07 - 2024.06
       role: Intern
       location: São Leopoldo
       description: |
-        Internship at the SAP Labs Latin America Innovation Team focused on solving problems with freedom of technology choice. Here I helped creating Leap and many other solo minor projects that helped me being more autonomous and broader my technology pool to be able to solve different kinds of problems. I'm also responsible for the DevOps and infrastructure of the team, taking care of all our Azure pipelines and BTP sub-accounts. Furthermore, I engaged with the SAP developer community by giving trainings and organizing events. While on the Innovation team, I'm also a member of the ASL Brazil group, organizing events for discussing and improve cybersecurity for SAP applications and work in parallel in the Concur Incubation Program.
+        Internship at the SAP Labs Latin America Innovation Team focused on solving problems with freedom of technology choice. Here I helped creating Leap and many other solo minor projects that helped me being more autonomous and broader my technology pool to be able to solve different kinds of problems. I was also responsible for the DevOps and infrastructure of the team, taking care of all our Azure pipelines and BTP sub-accounts. Furthermore, I engaged with the SAP developer community by giving trainings and organizing events. While on the Innovation team, I was also a member of the ASL Brazil group, organizing events for discussing and improve cybersecurity for SAP applications and worked in parallel in the Concur Incubation Program, developing Go backends and a Microsoft Teams app for Concur.
 
     - company: Brindes NH
       link: https://www.brindesnh.com.br/
@@ -116,7 +125,7 @@ experience:
       role: Intern
       location: São Leopoldo
       description: |
-        Internship focused on web development using NodeJS, Angular 6, .NET and Windows SQL Server along with embedded programing using raspberry PI on a Linux environment. Development process following agile methodology and versioning with GitLab.
+        Internship focused on web development using NodeJS, Angular 6, .NET and Windows SQL Server along with embedded programming using raspberry PI on a Linux environment. Development process following agile methodology and versioning with GitLab.
 
 project:
   show: true
@@ -126,15 +135,15 @@ project:
   items:
     - name: Liverpool 360
       tags: hackathon
-      date: 2023.06 - 2022.07
+      date: 2023.06 - 2023.07
       description: |
-        Project developed for SAP Innoweeks 2023 in parternship with Liverpool. Contributed as a backend developer with SAP CAP (typescript) and as a mobile developer with React Native.
+        Project developed for SAP Innoweeks 2023 in partnership with Liverpool. Contributed as a backend developer with SAP CAP (typescript) and as a mobile developer with React Native.
 
     - name: Cantu Restore
       tags: hackathon
       date: 2022.07 - 2022.08
       description: |
-        Project developed for SAP Innoweeks 2022 in parternship with Cantu Store. Contributed as a backend developer with nodejs and typescript.
+        Project developed for SAP Innoweeks 2022 in partnership with Cantu Store. Contributed as a backend developer with nodejs and typescript.
 
     - name: S.O.M.SO.R.F
       tags: school project
@@ -151,15 +160,17 @@ skill:
     - name: NodeJS/Typescript
       level: 4
     - name: Teamwork
-      level: 4
+      level: 5
     - name: Agile Development
       level: 5
     - name: Problem-solving
       level: 4
     - name: Go
-      level: 3
+      level: 4
     - name: Docker/Kubernetes
-      level: 3
+      level: 4
+    - name: IaD/Crossplane
+      level: 4
     - name: React/React Native
       level: 4
     - name: Azure Pipelines
@@ -175,7 +186,7 @@ education:
   items:
     - institution: Universidade Federal do Rio Grande do Sul
       link: http://www.ufrgs.br/
-      date: 2021 - 2025
+      date: 2021 - 2026
       major: Computer Engineering
       degree: Bachelor
 
